@@ -1,4 +1,4 @@
-
+<?php
 /* example functions for acf bidirectional relation */
 add_action('acf/save_post', 'acf_bidirectional_check_save');
 global $acf_recursive;
@@ -44,3 +44,4 @@ function acf_bidirectional_check_save($key){
         }
     }
 }
+?>
